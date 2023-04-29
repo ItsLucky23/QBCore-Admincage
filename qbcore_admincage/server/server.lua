@@ -2,6 +2,8 @@ webhook = '' -- your discord webhook HERE
 playernames = '' -- dont change
 playerids = '' -- dont change
 
+QBCore = exports[‘qb-core’]:GetCoreObject()
+
 RegisterNetEvent('admincage:handler')
 AddEventHandler('admincage:handler', function(args)
 
